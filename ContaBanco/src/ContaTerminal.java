@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
+        
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Digite seu nome:");
@@ -17,7 +18,7 @@ public class ContaTerminal {
         double saldoConta = Double.parseDouble(scan.next());
 
         System.out.println("Olá ".concat(nome +", obrigado por criar uma conta em nosso banco, sua agência é ").concat(numeroAgencia +", conta ").concat(numeroConta+" e seu saldo ").concat(saldoConta +" já está disponível para saque"));
-        
+
         scan.close();
     }
         
